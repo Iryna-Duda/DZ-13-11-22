@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    background-color: #cdddee; 
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row, nowrap;
+    font-size: 21px;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.menu li a {
+    display: inline-block;
+}
+
+.menu li {
+    border-left: 1px #2c71b8 solid;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2c71b8;
+    padding: 20px;
+    
+}
+
+.form {
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    border-color: #2c71b8;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #cadbed;
+    margin-right: 80px; 
+}
+
+input::placeholder {
+    color: #2c71b8;
+    font-size: 1em;
+    padding-left: 2px;
+  }
+
+.btn1 {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 43px;
+    right: 127px;
+    cursor: pointer;
+    background-color: #2c71b8;
+    border-style: none;
+ }
+
+ .btn1:before {
+  content: url(lens.png);
+ }
+
+ .btn2 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 38px;
+    right: 42px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-style: none;
+ }
+
+ .btn2:before {
+  content: url(basket-blue.png);
+ }
+  
